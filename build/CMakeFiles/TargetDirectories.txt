@@ -1,0 +1,3 @@
+/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles/Practica01_EDD.dir
+/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles/edit_cache.dir
+/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles/rebuild_cache.dir
