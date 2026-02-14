@@ -13,7 +13,7 @@ NodoCarta::NodoCarta(Carta* carta)
 
 Carta* NodoCarta::getCarta()
 {
-    return this->carta;
+    return carta;
 }
 
 NodoCarta* NodoCarta::getSiguienteCarta()

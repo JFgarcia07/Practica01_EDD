@@ -7,40 +7,21 @@
 
 using namespace std;
 
-Carta::Carta(string simbolo, string color, bool esNegra)
+Carta::Carta(string color, string tipo)
 {
-    this->simbolo = simbolo;
     this->color = color;
-    this->esNegra = esNegra;
+    this->tipo = tipo;
 }
 
-void Carta::mostrarCarta()
-{
-    cout << "[" << color << simbolo << "]" << endl;
-}
+Carta::~Carta() {}
 
-string Carta::getColor()
+string Carta::getColor() const
 {
     return color;
 }
 
-string Carta::getSimbolo()
+string Carta::getTipo() const
 {
-    return simbolo;
-}
-
-bool Carta::getEsNegra()
-{
-    return esNegra;
-}
-
-bool Carta::getEstaEnUso()
-{
-    return estaEnUso;
-}
-
-void Carta::setEstaEnUso(bool estaEnUso)
-{
-    this->estaEnUso = estaEnUso;
+    return tipo;
 }
 

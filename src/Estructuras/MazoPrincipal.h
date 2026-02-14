@@ -14,13 +14,13 @@ class MazoPrincipal
         int size;
     public:
         MazoPrincipal();
-        MazoPrincipal(Carta* carta);
         ~MazoPrincipal();
-        bool estaVacio();
+
         void insertarCarta(Carta* carta);
+        Carta* eliminarCarta();
+        Carta* mostrarData();
+
         int getSize();
-        void eliminarCarta();
-        void mostrarData();
-        Carta* getCarta();
+        bool estaVacio();
 };
 #endif //PRACTICA01_EDD_MAZOPRINCIPAL_H

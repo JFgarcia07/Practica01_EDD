@@ -15,4 +15,10 @@ add_executable(Practica01_EDD main.cpp
         src/DAO/CartaFlip.cpp
         src/DAO/Jugador.cpp
         src/Estructuras/NodoCarta.cpp
-        src/Estructuras/MazoPrincipal.cpp)
+        src/Estructuras/MazoPrincipal.cpp
+        src/DAO/CartaNumero.h
+        src/DAO/CartaNumero.cpp
+        src/DAO/CartaAccion.h
+        src/DAO/CartaAccion.cpp
+        src/DAO/CartaComodin.h
+        src/DAO/CartaComodin.cpp)

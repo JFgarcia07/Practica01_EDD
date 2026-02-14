@@ -11,23 +11,16 @@ using namespace std;
 class Carta
 {
     protected:
-        string simbolo;
-        string color;
-        bool esNegra;
-        bool estaEnUso;
+    string color;
+    string tipo;
 
     public:
-        Carta();
-        Carta(string simbolo, string color, bool esNegra);
-        virtual void mostrarCarta();
+    Carta(string color, string tipo);
+    virtual ~Carta();
 
-        //Getters y setters
-        string getSimbolo();
-        string getColor();
-        bool getEsNegra();
-        bool getEstaEnUso();
-        void setEstaEnUso(bool estaEnUso);
+    string getColor() const;
+    string getTipo() const;
 
-
+    virtual void mostrar() const = 0;
 };
 #endif //PRACTICA01_EDD_CARTA_H
