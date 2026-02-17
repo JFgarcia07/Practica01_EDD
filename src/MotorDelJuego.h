@@ -10,6 +10,7 @@ public:
     void bienvenida();
     void crearCartas();
     void mostrarCartas();
+    void crearJugadores();
 
 };
 #endif //PRACTICA01_EDD_MOTORDELJUEGO_H

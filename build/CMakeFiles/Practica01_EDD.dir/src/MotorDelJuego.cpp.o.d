@@ -156,8 +156,14 @@ CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/../src/DAO/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/Jugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/ManoJugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/NodoCarta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/NodoMano.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/Carta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h

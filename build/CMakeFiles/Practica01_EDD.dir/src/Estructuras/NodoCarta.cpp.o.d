@@ -2,7 +2,7 @@ CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o: \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.cpp \
  /usr/include/stdc-predef.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

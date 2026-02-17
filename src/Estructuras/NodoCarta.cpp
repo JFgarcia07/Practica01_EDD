@@ -3,7 +3,7 @@
 //
 
 #include "NodoCarta.h"
-#include "../DAO/Carta.h"
+#include "../Cartas/Carta.h"
 
 NodoCarta::NodoCarta(Carta* carta)
 {

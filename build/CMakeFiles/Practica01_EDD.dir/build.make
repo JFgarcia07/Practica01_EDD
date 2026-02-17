@@ -97,33 +97,33 @@ CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/MotorDelJuego.cpp -o CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.s
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
-CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Carta.cpp
-CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Carta.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.cpp
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Carta.cpp > CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.i
+CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.cpp > CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.i
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Carta.cpp -o CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.s
+CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.cpp -o CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.s
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
-CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/CartaFlip.cpp
-CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/CartaFlip.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/CartaFlip.cpp > CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.i
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp > CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.i
 
-CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/CartaFlip.cpp -o CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.s
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.s
 
 CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
 CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Jugador.cpp
@@ -167,29 +167,141 @@ CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.s
 
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp > CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaAccion.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaAccion.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaAccion.cpp > CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaAccion.cpp -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp > CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp -o CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp > CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp > CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp > CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp > CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.s
+
 # Object files for target Practica01_EDD
 Practica01_EDD_OBJECTS = \
 "CMakeFiles/Practica01_EDD.dir/main.cpp.o" \
 "CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o" \
-"CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o" \
-"CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o" \
 "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o" \
 "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o" \
-"CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o"
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o"
 
 # External object files for target Practica01_EDD
 Practica01_EDD_EXTERNAL_OBJECTS =
 
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/main.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o
-Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o
-Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/build.make
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Practica01_EDD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Practica01_EDD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practica01_EDD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

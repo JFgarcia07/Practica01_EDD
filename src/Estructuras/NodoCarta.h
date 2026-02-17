@@ -4,7 +4,7 @@
 
 #ifndef PRACTICA01_EDD_NODOCARTA_H
 #define PRACTICA01_EDD_NODOCARTA_H
-#include "../DAO/Carta.h"
+#include "../Cartas/Carta.h"
 
 class NodoCarta
 {

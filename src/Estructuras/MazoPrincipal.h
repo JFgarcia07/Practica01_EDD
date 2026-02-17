@@ -5,7 +5,7 @@
 #ifndef PRACTICA01_EDD_MAZOPRINCIPAL_H
 #define PRACTICA01_EDD_MAZOPRINCIPAL_H
 #include "NodoCarta.h"
-#include "../DAO/Carta.h"
+#include "../Cartas/Carta.h"
 
 class MazoPrincipal
 {
@@ -22,5 +22,7 @@ class MazoPrincipal
 
         int getSize();
         bool estaVacio();
+
+        void llenarMazo(int jugadores);
 };
 #endif //PRACTICA01_EDD_MAZOPRINCIPAL_H

@@ -7,10 +7,10 @@
 
 using namespace std;
 
-Jugador::Jugador(string nombre, bool gritoUno)
+Jugador::Jugador(string nombre)
 {
     this->nombre = nombre;
-    this->gritoUno = gritoUno;
+    this->gritoUno = false;
 }
 
 void Jugador::jugarCarta()
@@ -36,6 +36,11 @@ string Jugador::getNombre()
 void Jugador::setNombre(string nombre)
 {
     this->nombre = nombre;
+}
+
+ManoJugador& Jugador::getManoJugador()
+{
+    return manoJugador;
 }
 
 

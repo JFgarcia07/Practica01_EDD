@@ -8,7 +8,7 @@
 using namespace std;
 
 CartaNumero::CartaNumero(string color, int numero)
-    : Carta(color, "Numero") {
+    : Carta(color, "Numero", false) {
     this->numero = numero;
 }
 

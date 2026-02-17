@@ -157,4 +157,8 @@ CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/Carta.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/CartaAccion.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/CartaNumero.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/CartaComodin.h

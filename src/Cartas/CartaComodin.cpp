@@ -5,7 +5,7 @@
 #include "CartaComodin.h"
 #include <iostream>
 
-CartaComodin::CartaComodin(string efecto) : Carta("Negro", "Comodin")
+CartaComodin::CartaComodin(string efecto) : Carta("Negro", "Comodin", false)
 {
     this->efecto = efecto;
 }

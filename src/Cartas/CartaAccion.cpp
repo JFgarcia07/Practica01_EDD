@@ -6,7 +6,7 @@
 #include <iostream>
 
 CartaAccion::CartaAccion(string color, string accion)
-    : Carta(color, "Accion") {
+    : Carta(color, "Accion", false) {
     this->accion = accion;
 }
 

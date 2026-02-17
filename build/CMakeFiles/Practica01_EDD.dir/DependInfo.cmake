@@ -9,11 +9,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/main.cpp" "CMakeFiles/Practica01_EDD.dir/main.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/main.cpp.o.d"
-  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Carta.cpp" "CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o.d"
-  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/CartaFlip.cpp" "CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaAccion.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Jugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/MotorDelJuego.cpp" "CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o.d"
   )
 

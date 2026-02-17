@@ -153,53 +153,125 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/DAO/Carta.o: src/DAO/Carta.cpp.o
-.PHONY : src/DAO/Carta.o
+src/Cartas/Carta.o: src/Cartas/Carta.cpp.o
+.PHONY : src/Cartas/Carta.o
 
 # target to build an object file
-src/DAO/Carta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.o
-.PHONY : src/DAO/Carta.cpp.o
+src/Cartas/Carta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.o
+.PHONY : src/Cartas/Carta.cpp.o
 
-src/DAO/Carta.i: src/DAO/Carta.cpp.i
-.PHONY : src/DAO/Carta.i
+src/Cartas/Carta.i: src/Cartas/Carta.cpp.i
+.PHONY : src/Cartas/Carta.i
 
 # target to preprocess a source file
-src/DAO/Carta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.i
-.PHONY : src/DAO/Carta.cpp.i
+src/Cartas/Carta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.i
+.PHONY : src/Cartas/Carta.cpp.i
 
-src/DAO/Carta.s: src/DAO/Carta.cpp.s
-.PHONY : src/DAO/Carta.s
+src/Cartas/Carta.s: src/Cartas/Carta.cpp.s
+.PHONY : src/Cartas/Carta.s
 
 # target to generate assembly for a file
-src/DAO/Carta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/Carta.cpp.s
-.PHONY : src/DAO/Carta.cpp.s
+src/Cartas/Carta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/Carta.cpp.s
+.PHONY : src/Cartas/Carta.cpp.s
 
-src/DAO/CartaFlip.o: src/DAO/CartaFlip.cpp.o
-.PHONY : src/DAO/CartaFlip.o
+src/Cartas/CartaAccion.o: src/Cartas/CartaAccion.cpp.o
+.PHONY : src/Cartas/CartaAccion.o
 
 # target to build an object file
-src/DAO/CartaFlip.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.o
-.PHONY : src/DAO/CartaFlip.cpp.o
+src/Cartas/CartaAccion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.o
+.PHONY : src/Cartas/CartaAccion.cpp.o
 
-src/DAO/CartaFlip.i: src/DAO/CartaFlip.cpp.i
-.PHONY : src/DAO/CartaFlip.i
+src/Cartas/CartaAccion.i: src/Cartas/CartaAccion.cpp.i
+.PHONY : src/Cartas/CartaAccion.i
 
 # target to preprocess a source file
-src/DAO/CartaFlip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.i
-.PHONY : src/DAO/CartaFlip.cpp.i
+src/Cartas/CartaAccion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.i
+.PHONY : src/Cartas/CartaAccion.cpp.i
 
-src/DAO/CartaFlip.s: src/DAO/CartaFlip.cpp.s
-.PHONY : src/DAO/CartaFlip.s
+src/Cartas/CartaAccion.s: src/Cartas/CartaAccion.cpp.s
+.PHONY : src/Cartas/CartaAccion.s
 
 # target to generate assembly for a file
-src/DAO/CartaFlip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/CartaFlip.cpp.s
-.PHONY : src/DAO/CartaFlip.cpp.s
+src/Cartas/CartaAccion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaAccion.cpp.s
+.PHONY : src/Cartas/CartaAccion.cpp.s
+
+src/Cartas/CartaComodin.o: src/Cartas/CartaComodin.cpp.o
+.PHONY : src/Cartas/CartaComodin.o
+
+# target to build an object file
+src/Cartas/CartaComodin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o
+.PHONY : src/Cartas/CartaComodin.cpp.o
+
+src/Cartas/CartaComodin.i: src/Cartas/CartaComodin.cpp.i
+.PHONY : src/Cartas/CartaComodin.i
+
+# target to preprocess a source file
+src/Cartas/CartaComodin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.i
+.PHONY : src/Cartas/CartaComodin.cpp.i
+
+src/Cartas/CartaComodin.s: src/Cartas/CartaComodin.cpp.s
+.PHONY : src/Cartas/CartaComodin.s
+
+# target to generate assembly for a file
+src/Cartas/CartaComodin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.s
+.PHONY : src/Cartas/CartaComodin.cpp.s
+
+src/Cartas/CartaFlip.o: src/Cartas/CartaFlip.cpp.o
+.PHONY : src/Cartas/CartaFlip.o
+
+# target to build an object file
+src/Cartas/CartaFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o
+.PHONY : src/Cartas/CartaFlip.cpp.o
+
+src/Cartas/CartaFlip.i: src/Cartas/CartaFlip.cpp.i
+.PHONY : src/Cartas/CartaFlip.i
+
+# target to preprocess a source file
+src/Cartas/CartaFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.i
+.PHONY : src/Cartas/CartaFlip.cpp.i
+
+src/Cartas/CartaFlip.s: src/Cartas/CartaFlip.cpp.s
+.PHONY : src/Cartas/CartaFlip.s
+
+# target to generate assembly for a file
+src/Cartas/CartaFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.s
+.PHONY : src/Cartas/CartaFlip.cpp.s
+
+src/Cartas/CartaNumero.o: src/Cartas/CartaNumero.cpp.o
+.PHONY : src/Cartas/CartaNumero.o
+
+# target to build an object file
+src/Cartas/CartaNumero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o
+.PHONY : src/Cartas/CartaNumero.cpp.o
+
+src/Cartas/CartaNumero.i: src/Cartas/CartaNumero.cpp.i
+.PHONY : src/Cartas/CartaNumero.i
+
+# target to preprocess a source file
+src/Cartas/CartaNumero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.i
+.PHONY : src/Cartas/CartaNumero.cpp.i
+
+src/Cartas/CartaNumero.s: src/Cartas/CartaNumero.cpp.s
+.PHONY : src/Cartas/CartaNumero.s
+
+# target to generate assembly for a file
+src/Cartas/CartaNumero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.s
+.PHONY : src/Cartas/CartaNumero.cpp.s
 
 src/DAO/Jugador.o: src/DAO/Jugador.cpp.o
 .PHONY : src/DAO/Jugador.o
@@ -224,6 +296,54 @@ src/DAO/Jugador.s: src/DAO/Jugador.cpp.s
 src/DAO/Jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.s
 .PHONY : src/DAO/Jugador.cpp.s
+
+src/Estructuras/ListaJugadores.o: src/Estructuras/ListaJugadores.cpp.o
+.PHONY : src/Estructuras/ListaJugadores.o
+
+# target to build an object file
+src/Estructuras/ListaJugadores.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o
+.PHONY : src/Estructuras/ListaJugadores.cpp.o
+
+src/Estructuras/ListaJugadores.i: src/Estructuras/ListaJugadores.cpp.i
+.PHONY : src/Estructuras/ListaJugadores.i
+
+# target to preprocess a source file
+src/Estructuras/ListaJugadores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.i
+.PHONY : src/Estructuras/ListaJugadores.cpp.i
+
+src/Estructuras/ListaJugadores.s: src/Estructuras/ListaJugadores.cpp.s
+.PHONY : src/Estructuras/ListaJugadores.s
+
+# target to generate assembly for a file
+src/Estructuras/ListaJugadores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.s
+.PHONY : src/Estructuras/ListaJugadores.cpp.s
+
+src/Estructuras/ManoJugador.o: src/Estructuras/ManoJugador.cpp.o
+.PHONY : src/Estructuras/ManoJugador.o
+
+# target to build an object file
+src/Estructuras/ManoJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o
+.PHONY : src/Estructuras/ManoJugador.cpp.o
+
+src/Estructuras/ManoJugador.i: src/Estructuras/ManoJugador.cpp.i
+.PHONY : src/Estructuras/ManoJugador.i
+
+# target to preprocess a source file
+src/Estructuras/ManoJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.i
+.PHONY : src/Estructuras/ManoJugador.cpp.i
+
+src/Estructuras/ManoJugador.s: src/Estructuras/ManoJugador.cpp.s
+.PHONY : src/Estructuras/ManoJugador.s
+
+# target to generate assembly for a file
+src/Estructuras/ManoJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.s
+.PHONY : src/Estructuras/ManoJugador.cpp.s
 
 src/Estructuras/MazoPrincipal.o: src/Estructuras/MazoPrincipal.cpp.o
 .PHONY : src/Estructuras/MazoPrincipal.o
@@ -273,6 +393,54 @@ src/Estructuras/NodoCarta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.s
 .PHONY : src/Estructuras/NodoCarta.cpp.s
 
+src/Estructuras/NodoJugador.o: src/Estructuras/NodoJugador.cpp.o
+.PHONY : src/Estructuras/NodoJugador.o
+
+# target to build an object file
+src/Estructuras/NodoJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o
+.PHONY : src/Estructuras/NodoJugador.cpp.o
+
+src/Estructuras/NodoJugador.i: src/Estructuras/NodoJugador.cpp.i
+.PHONY : src/Estructuras/NodoJugador.i
+
+# target to preprocess a source file
+src/Estructuras/NodoJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.i
+.PHONY : src/Estructuras/NodoJugador.cpp.i
+
+src/Estructuras/NodoJugador.s: src/Estructuras/NodoJugador.cpp.s
+.PHONY : src/Estructuras/NodoJugador.s
+
+# target to generate assembly for a file
+src/Estructuras/NodoJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.s
+.PHONY : src/Estructuras/NodoJugador.cpp.s
+
+src/Estructuras/NodoMano.o: src/Estructuras/NodoMano.cpp.o
+.PHONY : src/Estructuras/NodoMano.o
+
+# target to build an object file
+src/Estructuras/NodoMano.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o
+.PHONY : src/Estructuras/NodoMano.cpp.o
+
+src/Estructuras/NodoMano.i: src/Estructuras/NodoMano.cpp.i
+.PHONY : src/Estructuras/NodoMano.i
+
+# target to preprocess a source file
+src/Estructuras/NodoMano.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.i
+.PHONY : src/Estructuras/NodoMano.cpp.i
+
+src/Estructuras/NodoMano.s: src/Estructuras/NodoMano.cpp.s
+.PHONY : src/Estructuras/NodoMano.s
+
+# target to generate assembly for a file
+src/Estructuras/NodoMano.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.s
+.PHONY : src/Estructuras/NodoMano.cpp.s
+
 src/MotorDelJuego.o: src/MotorDelJuego.cpp.o
 .PHONY : src/MotorDelJuego.o
 
@@ -309,21 +477,42 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/DAO/Carta.o"
-	@echo "... src/DAO/Carta.i"
-	@echo "... src/DAO/Carta.s"
-	@echo "... src/DAO/CartaFlip.o"
-	@echo "... src/DAO/CartaFlip.i"
-	@echo "... src/DAO/CartaFlip.s"
+	@echo "... src/Cartas/Carta.o"
+	@echo "... src/Cartas/Carta.i"
+	@echo "... src/Cartas/Carta.s"
+	@echo "... src/Cartas/CartaAccion.o"
+	@echo "... src/Cartas/CartaAccion.i"
+	@echo "... src/Cartas/CartaAccion.s"
+	@echo "... src/Cartas/CartaComodin.o"
+	@echo "... src/Cartas/CartaComodin.i"
+	@echo "... src/Cartas/CartaComodin.s"
+	@echo "... src/Cartas/CartaFlip.o"
+	@echo "... src/Cartas/CartaFlip.i"
+	@echo "... src/Cartas/CartaFlip.s"
+	@echo "... src/Cartas/CartaNumero.o"
+	@echo "... src/Cartas/CartaNumero.i"
+	@echo "... src/Cartas/CartaNumero.s"
 	@echo "... src/DAO/Jugador.o"
 	@echo "... src/DAO/Jugador.i"
 	@echo "... src/DAO/Jugador.s"
+	@echo "... src/Estructuras/ListaJugadores.o"
+	@echo "... src/Estructuras/ListaJugadores.i"
+	@echo "... src/Estructuras/ListaJugadores.s"
+	@echo "... src/Estructuras/ManoJugador.o"
+	@echo "... src/Estructuras/ManoJugador.i"
+	@echo "... src/Estructuras/ManoJugador.s"
 	@echo "... src/Estructuras/MazoPrincipal.o"
 	@echo "... src/Estructuras/MazoPrincipal.i"
 	@echo "... src/Estructuras/MazoPrincipal.s"
 	@echo "... src/Estructuras/NodoCarta.o"
 	@echo "... src/Estructuras/NodoCarta.i"
 	@echo "... src/Estructuras/NodoCarta.s"
+	@echo "... src/Estructuras/NodoJugador.o"
+	@echo "... src/Estructuras/NodoJugador.i"
+	@echo "... src/Estructuras/NodoJugador.s"
+	@echo "... src/Estructuras/NodoMano.o"
+	@echo "... src/Estructuras/NodoMano.i"
+	@echo "... src/Estructuras/NodoMano.s"
 	@echo "... src/MotorDelJuego.o"
 	@echo "... src/MotorDelJuego.i"
 	@echo "... src/MotorDelJuego.s"

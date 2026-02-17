@@ -155,4 +155,8 @@ CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Jugador.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Jugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/../Estructuras/ManoJugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/../Estructuras/NodoCarta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/../Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/../Estructuras/NodoMano.h
