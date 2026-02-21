@@ -11,6 +11,7 @@ class ListaJugadores
 {
     private:
     NodoJugador* cabeza;
+    NodoJugador* jugadorActual;
     int size;
     bool sentidoHorario;
 
@@ -20,9 +21,11 @@ class ListaJugadores
 
     void agregarJugador(string nombre);
     void avanzarTurno();
+    void saltarTurno();
     void cambiarSentido();
 
     Jugador* getJugadorActual();
+    NodoJugador* getCabeza();
 
     bool estaVacia();
     int getSize() const;

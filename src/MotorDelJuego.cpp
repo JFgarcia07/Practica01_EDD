@@ -9,6 +9,32 @@
 
 using namespace std;
 
+MotorDelJuego::MotorDelJuego()
+{
+    jugadorActual = nullptr;
+    cartaEnMesa = nullptr;
+}
+
+void MotorDelJuego::iniciarJuego()
+{
+    bienvenida();
+    crearJugadores();
+
+    repartirCartas(7);
+
+    cartaEnMesa = mazoPrincipal.eliminarCarta();
+
+    if (cartaEnMesa == nullptr)
+    {
+        cout << "Error: No se pudo obtener carta inicial.\n";
+        return;
+    }
+    cout << "\nCarta inicial en mesa:\n";
+    cartaEnMesa->mostrar();
+
+    mostrarTurno();
+}
+
 void MotorDelJuego::bienvenida()
 {
     cout << "==============================================\n";
@@ -24,10 +50,8 @@ void MotorDelJuego::bienvenida()
 
 void MotorDelJuego::crearJugadores()
 {
-    ListaJugadores listaJugadores;
     int numeroDeJugadores;
     string nombreJugador;
-
 
     cout << "Ingrese la cantidad de jugadiores que participaran: ";
 
@@ -49,11 +73,42 @@ void MotorDelJuego::crearJugadores()
         nombreJugador.clear();
     }
 
+    jugadorActual = listaJugadores.getCabeza();
+
     cout << "Jugadores creados correctamente ";
 
     for (int i = 0; i < numeroDeJugadores; i++) {
         cout << listaJugadores.getJugadorActual()->getNombre() << endl;
         listaJugadores.avanzarTurno();
     }
+
+    mazoPrincipal.llenarMazo(numeroDeJugadores);
 }
 
+void MotorDelJuego::repartirCartas(int cantidad)
+{
+
+    if (listaJugadores.estaVacia())
+    {
+        return;
+    }
+
+    for (int i = 0; i < cantidad; i++)
+    {
+        NodoJugador* temp = listaJugadores.getCabeza();
+        do {
+            Carta* carta = mazoPrincipal.eliminarCarta();
+            if (carta != nullptr)
+                temp->getJugador()->getManoJugador().agregarCarta(carta);
+            temp = temp->getSiguiente();
+        } while (temp != listaJugadores.getCabeza());
+    }
+}
+
+void MotorDelJuego::mostrarTurno()
+{
+    cout << "\n----------------------------------\n";
+    cout << "Turno de: " << listaJugadores.getJugadorActual()->getNombre() << endl;
+
+    listaJugadores.getJugadorActual()->mostrarManoJugador();
+}

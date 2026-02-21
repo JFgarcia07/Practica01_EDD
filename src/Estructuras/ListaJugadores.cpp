@@ -21,6 +21,7 @@ void ListaJugadores::agregarJugador(string nombre)
           cabeza = nuevoNodo;
           cabeza->setSiguiente(cabeza);
           cabeza->setAnterior(cabeza);
+          jugadorActual = cabeza;
      } else
      {
           NodoJugador* cola = cabeza->getAnterior();
@@ -38,11 +39,22 @@ void ListaJugadores::avanzarTurno()
 {
      if(sentidoHorario)
      {
-          cabeza = cabeza->getSiguiente();
+          jugadorActual = jugadorActual->getSiguiente();
      } else
      {
-          cabeza = cabeza->getAnterior();
+          jugadorActual = jugadorActual->getAnterior();
      }
+}
+
+void ListaJugadores::saltarTurno()
+{
+     avanzarTurno();
+     avanzarTurno();
+}
+
+void ListaJugadores::cambiarSentido()
+{
+     sentidoHorario = !sentidoHorario;
 }
 
 Jugador* ListaJugadores::getJugadorActual()
@@ -82,4 +94,9 @@ ListaJugadores::~ListaJugadores()
 bool ListaJugadores::estaVacia()
 {
      return cabeza == nullptr;
+}
+
+NodoJugador* ListaJugadores::getCabeza()
+{
+     return cabeza;
 }

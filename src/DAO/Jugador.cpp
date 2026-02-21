@@ -43,4 +43,9 @@ ManoJugador& Jugador::getManoJugador()
     return manoJugador;
 }
 
+void Jugador::mostrarManoJugador()
+{
+    cout << "Cartas de " << nombre << " : " << endl;
+    manoJugador.mostrarCartas();
+}
 

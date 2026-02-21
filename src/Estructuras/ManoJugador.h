@@ -21,7 +21,7 @@ class ManoJugador
     void agregarCarta(Carta* carta);
     Carta* eliminarCarta(int posicion);
 
-    void mostrarMano() const;
+    void mostrarCartas() const;
 
     bool estaVacio() const;
     int getSize() const;

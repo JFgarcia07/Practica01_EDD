@@ -24,6 +24,8 @@ class Jugador
         void robarCarta();
         void jugarCarta();
         void gritarUno();
+        void jugarUno();
+        void mostrarManoJugador();
 
         //Getters y setters
         string getNombre();

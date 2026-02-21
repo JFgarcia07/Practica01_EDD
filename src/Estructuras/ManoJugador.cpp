@@ -36,7 +36,7 @@ void ManoJugador::agregarCarta(Carta* carta)
     size++;
 }
 
-void ManoJugador::mostrarMano() const
+void ManoJugador::mostrarCartas() const
 {
     NodoMano* actual = cabeza;
     int index = 1;

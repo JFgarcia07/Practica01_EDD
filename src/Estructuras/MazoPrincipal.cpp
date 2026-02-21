@@ -114,18 +114,16 @@ void MazoPrincipal::llenarMazo(int jugadores)
 
         //BARAJEAR MAZO
         srand(time(nullptr));
-
-        for (int i = 0; i < 4; i++)
+        for (int i = totalCartas - 1; i > 0; i--)
         {
-            int j =  rand() % (i+1);
-
+            int j = rand() % (i + 1);
             Carta* aux = cartas[i];
             cartas[i] = cartas[j];
             cartas[j] = aux;
         }
 
         //Meter Cartas en la pila
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < totalCartas; i++)
         {
             insertarCarta(cartas[i]);
         }
