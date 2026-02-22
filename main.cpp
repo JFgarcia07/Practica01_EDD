@@ -7,9 +7,6 @@
 int main()
 {
     MotorDelJuego motor;
-    motor.bienvenida();
-    motor.crearJugadores();
-    motor.repartirCartas(7);
-    motor.mostrarTurno();
+    motor.iniciarJuego();
     return 0;
 }

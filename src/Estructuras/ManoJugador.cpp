@@ -60,7 +60,7 @@ Carta* ManoJugador::eliminarCarta(int posicion)
     NodoMano* actual = cabeza;
     NodoMano* anterior = nullptr;
 
-    for (int i = 0; i < posicion; i++)
+    for (int i = 0; i < posicion - 1; i++)
     {
         anterior = actual;
         actual = actual->getSiguiente();
@@ -81,4 +81,13 @@ Carta* ManoJugador::eliminarCarta(int posicion)
     return carta;
 }
 
+int ManoJugador::getSize() const
+{
+    return size;
+}
 
+
+bool ManoJugador::estaVacio() const
+{
+    return size == 0;
+}

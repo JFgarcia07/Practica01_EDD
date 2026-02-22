@@ -6,6 +6,7 @@
 #define PRACTICA01_EDD_MOTORDELJUEGO_H
 #include "Estructuras/ListaJugadores.h"
 #include "Estructuras/MazoPrincipal.h"
+#include "Estructuras/MesaJugadas.h"
 
 class MotorDelJuego
 {
@@ -14,6 +15,8 @@ private:
     MazoPrincipal mazoPrincipal;
     NodoJugador* jugadorActual;
     Carta* cartaEnMesa;
+    Jugador* ganador;
+    MesaJugadas mesaJugadas;
 
 public:
     MotorDelJuego();
@@ -22,6 +25,9 @@ public:
     void crearJugadores();
     void repartirCartas(int cantidad);
     void mostrarTurno();
-
+    void procesarTurno();
+    Carta* robarCarta();
+    void mostrarGanador();
+    bool hayGanador();
 };
 #endif //PRACTICA01_EDD_MOTORDELJUEGO_H

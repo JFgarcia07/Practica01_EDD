@@ -13,21 +13,6 @@ Jugador::Jugador(string nombre)
     this->gritoUno = false;
 }
 
-void Jugador::jugarCarta()
-{
-
-}
-
-void Jugador::robarCarta()
-{
-
-}
-
-void Jugador::gritarUno()
-{
-
-}
-
 string Jugador::getNombre()
 {
     return nombre;

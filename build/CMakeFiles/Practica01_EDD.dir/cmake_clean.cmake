@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.o.d"
+  "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o"
+  "CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o"

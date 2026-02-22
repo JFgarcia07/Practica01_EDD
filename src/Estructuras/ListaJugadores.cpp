@@ -64,7 +64,7 @@ Jugador* ListaJugadores::getJugadorActual()
           return nullptr;
      }
 
-     return cabeza->getJugador();
+     return jugadorActual->getJugador();
 }
 
 ListaJugadores::~ListaJugadores()

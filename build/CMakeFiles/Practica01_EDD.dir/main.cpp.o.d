@@ -166,4 +166,11 @@ CMakeFiles/Practica01_EDD.dir/main.cpp.o: \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/NodoMano.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h

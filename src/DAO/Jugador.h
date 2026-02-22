@@ -19,12 +19,6 @@ class Jugador
     public:
         Jugador();
         Jugador(string nombre);
-
-        //Acciones del jugador
-        void robarCarta();
-        void jugarCarta();
-        void gritarUno();
-        void jugarUno();
         void mostrarManoJugador();
 
         //Getters y setters

@@ -369,6 +369,30 @@ src/Estructuras/MazoPrincipal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/MazoPrincipal.cpp.s
 .PHONY : src/Estructuras/MazoPrincipal.cpp.s
 
+src/Estructuras/MesaJugadas.o: src/Estructuras/MesaJugadas.cpp.o
+.PHONY : src/Estructuras/MesaJugadas.o
+
+# target to build an object file
+src/Estructuras/MesaJugadas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o
+.PHONY : src/Estructuras/MesaJugadas.cpp.o
+
+src/Estructuras/MesaJugadas.i: src/Estructuras/MesaJugadas.cpp.i
+.PHONY : src/Estructuras/MesaJugadas.i
+
+# target to preprocess a source file
+src/Estructuras/MesaJugadas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.i
+.PHONY : src/Estructuras/MesaJugadas.cpp.i
+
+src/Estructuras/MesaJugadas.s: src/Estructuras/MesaJugadas.cpp.s
+.PHONY : src/Estructuras/MesaJugadas.s
+
+# target to generate assembly for a file
+src/Estructuras/MesaJugadas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.s
+.PHONY : src/Estructuras/MesaJugadas.cpp.s
+
 src/Estructuras/NodoCarta.o: src/Estructuras/NodoCarta.cpp.o
 .PHONY : src/Estructuras/NodoCarta.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... src/Estructuras/MazoPrincipal.o"
 	@echo "... src/Estructuras/MazoPrincipal.i"
 	@echo "... src/Estructuras/MazoPrincipal.s"
+	@echo "... src/Estructuras/MesaJugadas.o"
+	@echo "... src/Estructuras/MesaJugadas.i"
+	@echo "... src/Estructuras/MesaJugadas.s"
 	@echo "... src/Estructuras/NodoCarta.o"
 	@echo "... src/Estructuras/NodoCarta.i"
 	@echo "... src/Estructuras/NodoCarta.s"

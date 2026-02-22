@@ -3,6 +3,7 @@
 //
 #include "MotorDelJuego.h"
 #include <iostream>
+
 #include "Cartas/Carta.h"
 #include "Estructuras/ListaJugadores.h"
 #include "Estructuras/MazoPrincipal.h"
@@ -29,10 +30,18 @@ void MotorDelJuego::iniciarJuego()
         cout << "Error: No se pudo obtener carta inicial.\n";
         return;
     }
+
     cout << "\nCarta inicial en mesa:\n";
     cartaEnMesa->mostrar();
 
-    mostrarTurno();
+    while (!hayGanador())
+    {
+        mostrarTurno();
+        procesarTurno();
+        listaJugadores.avanzarTurno();
+    }
+
+    mostrarGanador();
 }
 
 void MotorDelJuego::bienvenida()
@@ -77,10 +86,11 @@ void MotorDelJuego::crearJugadores()
 
     cout << "Jugadores creados correctamente ";
 
-    for (int i = 0; i < numeroDeJugadores; i++) {
-        cout << listaJugadores.getJugadorActual()->getNombre() << endl;
-        listaJugadores.avanzarTurno();
-    }
+    NodoJugador* temp = listaJugadores.getCabeza();
+    do {
+        cout << temp->getJugador()->getNombre() << endl;
+        temp = temp->getSiguiente();
+    } while (temp != listaJugadores.getCabeza());
 
     mazoPrincipal.llenarMazo(numeroDeJugadores);
 }
@@ -107,8 +117,106 @@ void MotorDelJuego::repartirCartas(int cantidad)
 
 void MotorDelJuego::mostrarTurno()
 {
+    //system("clear");
     cout << "\n----------------------------------\n";
     cout << "Turno de: " << listaJugadores.getJugadorActual()->getNombre() << endl;
 
     listaJugadores.getJugadorActual()->mostrarManoJugador();
+}
+
+void MotorDelJuego::procesarTurno()
+{
+    Jugador* jugador = listaJugadores.getJugadorActual();
+    int opcion;
+    int totalCartas = jugador->getManoJugador().getSize();
+
+    cout << "\n----------------------------------\n";
+    cout << "Cartas en Mesa: " << endl;
+    cartaEnMesa->mostrar();
+
+    cout << "Elige una carta (1-" << totalCartas << ") para jugar" << endl;
+    cout << "si no puede jugar una carta, ingrese cualquier otro numero para robar" << endl;
+    cin >> opcion;
+
+    if (opcion >= 1 && opcion <= totalCartas)
+    {
+        Carta* cartaJugada = jugador->getManoJugador().eliminarCarta(opcion);
+
+        if (cartaJugada == nullptr)
+        {
+            cout << "Error al obtener carta";
+            return;
+        }
+
+        mesaJugadas.agregarCarta(cartaEnMesa);
+        cartaEnMesa = cartaJugada;
+
+        cout << "Carta jugada: ";
+        cartaEnMesa->mostrar();
+
+        if (jugador->getManoJugador().getSize() == 1)
+        {
+            string grito;
+            cout << "Tienes 1 carta solamente, ESCRIBE UNO";
+            cin.ignore();
+            getline(cin, grito);
+
+            if (grito == "UNO" || grito == "uno" )
+            {
+                cout << jugador->getNombre() <<" ha gritado UNO" << endl;
+            } else
+            {
+                cout << "No gritaste UNO, robas 2 cartas.\n";
+                jugador->getManoJugador().agregarCarta(robarCarta());
+                jugador->getManoJugador().agregarCarta(robarCarta());
+            }
+        }
+    } else
+    {
+        Carta* carta = robarCarta();
+        if (carta != nullptr)
+        {
+            jugador->getManoJugador().agregarCarta(carta);
+            cout << "Robaste una carta.\n";
+        }
+    }
+}
+
+Carta* MotorDelJuego::robarCarta()
+{
+    if (mazoPrincipal.estaVacio())
+    {
+        if (mesaJugadas.getSize() <= 1)
+        {
+            cout << "No hay cartas disponibles ";
+            return nullptr;
+        }
+
+        cout << "Mazo vacio, reciclando cartas jugadas..." << endl;
+        mesaJugadas.reciclarAlMazo(mazoPrincipal);
+    }
+    return mazoPrincipal.eliminarCarta();
+}
+
+bool MotorDelJuego::hayGanador()
+{
+    NodoJugador* temp = listaJugadores.getCabeza();
+    do
+    {
+        if (temp->getJugador()->getManoJugador().getSize() == 0)
+        {
+            ganador = temp->getJugador();
+            return true;
+        }
+        temp = temp->getSiguiente();
+    } while (temp != listaJugadores.getCabeza());
+
+    return false;
+}
+
+void MotorDelJuego::mostrarGanador()
+{
+    cout << "\n==========================================\n";
+    cout << "     GANADOR :) , FELICIDADES: " << ganador->getNombre() << endl;
+    cout << "\n==========================================\n";
 }

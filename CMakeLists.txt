@@ -29,4 +29,7 @@ add_executable(Practica01_EDD main.cpp
         src/Estructuras/NodoMano.h
         src/Estructuras/NodoMano.cpp
         src/Estructuras/ManoJugador.h
-        src/Estructuras/ManoJugador.cpp)
+        src/Estructuras/ManoJugador.cpp
+        src/Estructuras/MesaJugadas.h
+        src/Estructuras/MesaJugadas.cpp
+        src/Logica/LogicaJuego.h)
