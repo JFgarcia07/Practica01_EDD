@@ -35,4 +35,7 @@ add_executable(Practica01_EDD main.cpp
         src/Logica/LogicaJuego.h
         src/Logica/ConfiguracionJuego.h
         src/Logica/ConfiguracionJuego.cpp
-        src/Logica/LogicaJuego.cpp)
+        src/Logica/LogicaJuego.cpp
+        src/Cartas/CartaRobaTodo.h
+        src/Cartas/CartaRobaTodo.cpp
+)

@@ -19,3 +19,8 @@ void CartaComodin::mostrar() const
 {
     cout << "[Negro " << efecto << "]" << endl;
 }
+
+void CartaComodin::setColor(string color)
+{
+    this->color = color;
+}

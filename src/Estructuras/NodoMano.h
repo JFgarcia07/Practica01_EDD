@@ -19,6 +19,7 @@ public:
     Carta* getCarta() const;
     NodoMano* getSiguiente() const;
 
+    void setCarta(Carta* carta);
     void setSiguiente(NodoMano* siguiente);
 
 };

@@ -20,6 +20,11 @@ NodoMano* NodoMano::getSiguiente() const
     return siguiente;
 }
 
+void NodoMano::setCarta(Carta* carta)
+{
+    this->carta = carta;
+}
+
 void NodoMano::setSiguiente(NodoMano* siguiente)
 {
     this->siguiente = siguiente;

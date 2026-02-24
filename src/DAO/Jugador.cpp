@@ -30,6 +30,7 @@ ManoJugador& Jugador::getManoJugador()
 
 void Jugador::mostrarManoJugador()
 {
+    manoJugador.ordenarCartas();
     cout << "Cartas de " << nombre << " : " << endl;
     manoJugador.mostrarCartas();
 }

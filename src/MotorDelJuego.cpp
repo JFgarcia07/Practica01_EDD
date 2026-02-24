@@ -31,6 +31,12 @@ void MotorDelJuego::iniciarJuego()
 
     cartaEnMesa = mazoPrincipal.eliminarCarta();
 
+    while (cartaEnMesa != nullptr && cartaEnMesa->getTipo() != "Numero")
+    {
+        mazoPrincipal.insertarCarta(cartaEnMesa);
+        cartaEnMesa = mazoPrincipal.eliminarCarta();
+    }
+
     if (cartaEnMesa == nullptr)
     {
         cout << "Error: No se pudo obtener carta inicial.\n";

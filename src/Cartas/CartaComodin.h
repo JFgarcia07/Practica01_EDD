@@ -16,6 +16,8 @@ class CartaComodin : public Carta
 
     string getEfecto() const;
     void mostrar() const override;
+    void setColor(string color);
+
 };
 
 #endif //PRACTICA01_EDD_CARTACOMODIN_H

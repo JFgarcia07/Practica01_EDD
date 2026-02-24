@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaComodin.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaComodin.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaFlip.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaNumero.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/CartaRobaTodo.cpp" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/DAO/Jugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o.d"

@@ -21,6 +21,7 @@ LogicaJuego::LogicaJuego(ListaJugadores& jugadores, MazoPrincipal& mazoPrincipal
 bool LogicaJuego::cartaEsJugable(Carta* cartaJugada, Carta* cartaEnMesa)
 {
     if (cartaJugada->getTipo() == "Comodin") return true;
+    if (cartaJugada->getTipo() == "RobaTodo") return true;
     if (cartaJugada->getColor() == cartaEnMesa->getColor()) return true;
 
     if (cartaJugada->getTipo() == "Accion" && cartaEnMesa->getTipo() == "Accion")
@@ -78,6 +79,36 @@ void LogicaJuego::aplicarEfecto(Carta* carta)
                 hayAcumulado = false;
             }
         }
+    } else if (carta->getTipo() == "RobaTodo")
+    {
+        cout << "¡RobaTodo! Todos los jugadores pierden sus comodines" << endl;
+
+        NodoJugador* temp = jugadores.getCabeza();
+        do
+        {
+            Jugador* jugador = temp->getJugador();
+            ManoJugador& mano = jugador->getManoJugador();
+            int total = mano.getSize();
+
+            Carta** cartasTemp = new Carta*[total];
+            for (int i = 0; i < total; i++)
+                cartasTemp[i] = mano.eliminarCarta(1);
+
+            for (int i = 0; i < total; i++)
+            {
+                if (cartasTemp[i]->getTipo() == "Comodin")
+                {
+                    mazoPrincipal.insertarCarta(cartasTemp[i]);
+                    cout << jugador->getNombre() << " pierde un comodin." << endl;
+                }
+                else
+                {
+                    mano.agregarCarta(cartasTemp[i]);
+                }
+            }
+            delete[] cartasTemp;
+            temp = temp->getSiguiente();
+        } while (temp != jugadores.getCabeza());
     }
     else if (carta->getTipo() == "Comodin")
     {
@@ -93,6 +124,9 @@ void LogicaJuego::aplicarEfecto(Carta* carta)
             }
             else
             {
+                string colorElegido = elegirColor();
+                comodin->setColor(colorElegido);
+
                 acumulado = 4;
                 jugadores.avanzarTurno();
                 Jugador* afectado = jugadores.getJugadorActual();
@@ -116,9 +150,7 @@ void LogicaJuego::aplicarEfecto(Carta* carta)
                     {
                         cout << afectado->getNombre() << " roba " << acumulado << " cartas.\n";
                         for (int i = 0; i < acumulado; i++)
-                        {
                             afectado->getManoJugador().agregarCarta(mazoPrincipal.eliminarCarta());
-                        }
                     }
                 }
                 else
@@ -134,18 +166,46 @@ void LogicaJuego::aplicarEfecto(Carta* carta)
         }
         else
         {
-            string nuevoColor;
-            cout << "Elige un color (Rojo, Verde, Azul, Amarillo): ";
-            cin >> nuevoColor;
-            //comodin->setColor(nuevoColor);
+            string colorElegido = elegirColor();
+            comodin->setColor(colorElegido);
         }
     }
+}
+
+string LogicaJuego::elegirColor()
+{
+    string color;
+    int opcion;
+    cout << "Elige un color:";
+    cout << "1.Rojo 2.Verde 3.Azul 4.Amarillo " << endl;
+
+    while (true)
+    {
+        cout << "Opcion: ";
+        cin >> opcion;
+        if (opcion == 1) { color = "Rojo";      break; }
+        if (opcion == 2) { color = "Verde";     break; }
+        if (opcion == 3) { color = "Azul";      break; }
+        if (opcion == 4) { color = "Amarillo";  break; }
+        cout << "Opcion invalida." << endl;
+    }
+    return color;
 }
 
 bool LogicaJuego::manejarRobo(Jugador* jugador, Carta* cartaEnMesa)
 {
     if (configuracion.getModoRoboSimple())
     {
+        if (mazoPrincipal.estaVacio())
+        {
+            if (mesaJugadas.getSize() <= 1)
+            {
+                cout << "No hay cartas disponibles.\n";
+                return false;
+            }
+            mesaJugadas.reciclarAlMazo(mazoPrincipal);
+        }
+
         Carta* carta = mazoPrincipal.eliminarCarta();
         if (carta != nullptr)
         {
@@ -157,22 +217,52 @@ bool LogicaJuego::manejarRobo(Jugador* jugador, Carta* cartaEnMesa)
     else
     {
         cout << "Robando hasta encontrar carta jugable...\n";
+        int intentos = 0;
         while (true)
         {
+            if (mazoPrincipal.estaVacio())
+            {
+                if (mesaJugadas.getSize() <= 1)
+                {
+                    cout << "No hay cartas disponibles." << endl;;
+                    return false;
+                }
+                mesaJugadas.reciclarAlMazo(mazoPrincipal);
+            }
+
             Carta* carta = mazoPrincipal.eliminarCarta();
             if (carta == nullptr)
             {
-                cout << "No hay mas cartas.\n";
+                cout << "No hay mas cartas." << endl;;
                 return false;
             }
+
             jugador->getManoJugador().agregarCarta(carta);
             cout << "Robaste: ";
             carta->mostrar();
 
+            if (carta->getColor() == "Negro" && !configuracion.getGanarConNegra())
+            {
+                intentos++;
+                if (intentos >= mazoPrincipal.getSize() + mesaJugadas.getSize())
+                {
+                    cout << "No hay cartas jugables disponibles." << endl;;
+                    return false;
+                }
+                continue;
+            }
+
             if (cartaEsJugable(carta, cartaEnMesa))
             {
-                cout << "Carta jugable encontrada!\n";
+                cout << "Carta jugable encontrada!" << endl;
                 return true;
+            }
+
+            intentos++;
+            if (intentos >= 20)
+            {
+                cout << "No se encontro carta jugable, pasas turno." << endl;
+                return false;
             }
         }
     }

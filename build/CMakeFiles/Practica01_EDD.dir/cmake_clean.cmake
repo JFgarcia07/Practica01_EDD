@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaFlip.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o"
   "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.o.d"
+  "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.o"
+  "CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o"
   "CMakeFiles/Practica01_EDD.dir/src/DAO/Jugador.cpp.o.d"
   "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o"

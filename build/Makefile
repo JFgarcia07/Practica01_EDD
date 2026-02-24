@@ -273,6 +273,30 @@ src/Cartas/CartaNumero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaNumero.cpp.s
 .PHONY : src/Cartas/CartaNumero.cpp.s
 
+src/Cartas/CartaRobaTodo.o: src/Cartas/CartaRobaTodo.cpp.o
+.PHONY : src/Cartas/CartaRobaTodo.o
+
+# target to build an object file
+src/Cartas/CartaRobaTodo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.o
+.PHONY : src/Cartas/CartaRobaTodo.cpp.o
+
+src/Cartas/CartaRobaTodo.i: src/Cartas/CartaRobaTodo.cpp.i
+.PHONY : src/Cartas/CartaRobaTodo.i
+
+# target to preprocess a source file
+src/Cartas/CartaRobaTodo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.i
+.PHONY : src/Cartas/CartaRobaTodo.cpp.i
+
+src/Cartas/CartaRobaTodo.s: src/Cartas/CartaRobaTodo.cpp.s
+.PHONY : src/Cartas/CartaRobaTodo.s
+
+# target to generate assembly for a file
+src/Cartas/CartaRobaTodo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Cartas/CartaRobaTodo.cpp.s
+.PHONY : src/Cartas/CartaRobaTodo.cpp.s
+
 src/DAO/Jugador.o: src/DAO/Jugador.cpp.o
 .PHONY : src/DAO/Jugador.o
 
@@ -564,6 +588,9 @@ help:
 	@echo "... src/Cartas/CartaNumero.o"
 	@echo "... src/Cartas/CartaNumero.i"
 	@echo "... src/Cartas/CartaNumero.s"
+	@echo "... src/Cartas/CartaRobaTodo.o"
+	@echo "... src/Cartas/CartaRobaTodo.i"
+	@echo "... src/Cartas/CartaRobaTodo.s"
 	@echo "... src/DAO/Jugador.o"
 	@echo "... src/DAO/Jugador.i"
 	@echo "... src/DAO/Jugador.s"

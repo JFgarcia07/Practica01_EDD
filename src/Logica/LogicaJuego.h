@@ -25,5 +25,6 @@ public:
     bool cartaEsJugable(Carta* cartaJugada, Carta* cartaEnMesa);
     void aplicarEfecto(Carta* carta);
     bool manejarRobo(Jugador* jugador, Carta* cartaEnMesa);
+    string elegirColor();
 };
 #endif //PRACTICA01_EDD_LOGICAJUEGO_H

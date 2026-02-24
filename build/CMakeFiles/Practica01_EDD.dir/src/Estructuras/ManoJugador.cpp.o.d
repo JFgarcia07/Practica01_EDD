@@ -158,4 +158,6 @@ CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o: \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ManoJugador.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/CartaNumero.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h
