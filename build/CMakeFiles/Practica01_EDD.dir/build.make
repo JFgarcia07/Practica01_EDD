@@ -279,6 +279,34 @@ CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.cpp -o CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.s
 
+CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.cpp
+CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.cpp > CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.cpp -o CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.s
+
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o: CMakeFiles/Practica01_EDD.dir/flags.make
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o: /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o: CMakeFiles/Practica01_EDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o -MF CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o.d -o CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o -c /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp
+
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp > CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.i
+
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp -o CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.s
+
 # Object files for target Practica01_EDD
 Practica01_EDD_OBJECTS = \
 "CMakeFiles/Practica01_EDD.dir/main.cpp.o" \
@@ -295,7 +323,9 @@ Practica01_EDD_OBJECTS = \
 "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp.o" \
 "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o" \
 "CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o" \
-"CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o"
+"CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o" \
+"CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o"
 
 # External object files for target Practica01_EDD
 Practica01_EDD_EXTERNAL_OBJECTS =
@@ -315,9 +345,11 @@ Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/ListaJugadores.cpp
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/ManoJugador.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Estructuras/MesaJugadas.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o
+Practica01_EDD: CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/build.make
 Practica01_EDD: CMakeFiles/Practica01_EDD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Practica01_EDD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jfgarcianata/CLionProjects/Practica01_EDD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Practica01_EDD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practica01_EDD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

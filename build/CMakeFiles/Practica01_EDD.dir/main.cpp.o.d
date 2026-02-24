@@ -173,4 +173,9 @@ CMakeFiles/Practica01_EDD.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/ListaJugadores.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/MesaJugadas.h

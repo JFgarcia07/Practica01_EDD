@@ -7,6 +7,7 @@
 #include "Estructuras/ListaJugadores.h"
 #include "Estructuras/MazoPrincipal.h"
 #include "Estructuras/MesaJugadas.h"
+#include "Logica/LogicaJuego.h"
 
 class MotorDelJuego
 {
@@ -14,6 +15,8 @@ private:
     ListaJugadores listaJugadores;
     MazoPrincipal mazoPrincipal;
     NodoJugador* jugadorActual;
+    ConfiguracionJuego configuracion;
+    LogicaJuego logica;
     Carta* cartaEnMesa;
     Jugador* ganador;
     MesaJugadas mesaJugadas;

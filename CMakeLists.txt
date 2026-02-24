@@ -32,4 +32,7 @@ add_executable(Practica01_EDD main.cpp
         src/Estructuras/ManoJugador.cpp
         src/Estructuras/MesaJugadas.h
         src/Estructuras/MesaJugadas.cpp
-        src/Logica/LogicaJuego.h)
+        src/Logica/LogicaJuego.h
+        src/Logica/ConfiguracionJuego.h
+        src/Logica/ConfiguracionJuego.cpp
+        src/Logica/LogicaJuego.cpp)

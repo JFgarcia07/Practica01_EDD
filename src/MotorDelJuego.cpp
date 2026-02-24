@@ -10,16 +10,22 @@
 
 using namespace std;
 
-MotorDelJuego::MotorDelJuego()
+MotorDelJuego::MotorDelJuego(): logica(listaJugadores, mazoPrincipal, mesaJugadas, configuracion)
 {
     jugadorActual = nullptr;
     cartaEnMesa = nullptr;
+    ganador = nullptr;
 }
 
 void MotorDelJuego::iniciarJuego()
 {
     bienvenida();
     crearJugadores();
+
+    configuracion.configAcumulacion();
+    configuracion.configRetoMas4();
+    configuracion.configModoRobo();
+    configuracion.configGanarConNegra();
 
     repartirCartas(7);
 
@@ -148,30 +154,41 @@ void MotorDelJuego::procesarTurno()
             return;
         }
 
-        mesaJugadas.agregarCarta(cartaEnMesa);
-        cartaEnMesa = cartaJugada;
-
-        cout << "Carta jugada: ";
-        cartaEnMesa->mostrar();
-
-        if (jugador->getManoJugador().getSize() == 1)
+        if (logica.cartaEsJugable(cartaJugada, cartaEnMesa))
         {
-            string grito;
-            cout << "Tienes 1 carta solamente, ESCRIBE UNO";
-            cin.ignore();
-            getline(cin, grito);
+            mesaJugadas.agregarCarta(cartaEnMesa);
+            cartaEnMesa = cartaJugada;
 
-            if (grito == "UNO" || grito == "uno" )
+            cout << "Carta jugada: ";
+            cartaEnMesa->mostrar();
+
+            logica.aplicarEfecto(cartaEnMesa);
+
+            if (jugador->getManoJugador().getSize() == 1)
             {
-                cout << jugador->getNombre() <<" ha gritado UNO" << endl;
-            } else
-            {
-                cout << "No gritaste UNO, robas 2 cartas.\n";
-                jugador->getManoJugador().agregarCarta(robarCarta());
-                jugador->getManoJugador().agregarCarta(robarCarta());
+                string grito;
+                cout << "Tienes 1 carta solamente, ESCRIBE UNO: ";
+                cin.ignore();
+                getline(cin, grito);
+
+                if (grito == "UNO" || grito == "uno")
+                    cout << jugador->getNombre() << " ha gritado UNO\n";
+                else
+                {
+                    cout << "No gritaste UNO, robas 2 cartas.\n";
+                    jugador->getManoJugador().agregarCarta(robarCarta());
+                    jugador->getManoJugador().agregarCarta(robarCarta());
+                }
             }
         }
-    } else
+        else
+        {
+            cout << "Carta no valida para jugar.\n";
+            jugador->getManoJugador().agregarCarta(cartaJugada);
+            logica.manejarRobo(jugador, cartaEnMesa);
+        }
+    }
+    else
     {
         Carta* carta = robarCarta();
         if (carta != nullptr)

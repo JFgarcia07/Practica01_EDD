@@ -22,6 +22,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoCarta.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoJugador.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoMano.cpp" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.cpp" "CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o.d"
+  "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp" "CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o.d"
   "/home/jfgarcianata/CLionProjects/Practica01_EDD/src/MotorDelJuego.cpp" "CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o" "gcc" "CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o.d"
   )
 

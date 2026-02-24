@@ -465,6 +465,54 @@ src/Estructuras/NodoMano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Estructuras/NodoMano.cpp.s
 .PHONY : src/Estructuras/NodoMano.cpp.s
 
+src/Logica/ConfiguracionJuego.o: src/Logica/ConfiguracionJuego.cpp.o
+.PHONY : src/Logica/ConfiguracionJuego.o
+
+# target to build an object file
+src/Logica/ConfiguracionJuego.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.o
+.PHONY : src/Logica/ConfiguracionJuego.cpp.o
+
+src/Logica/ConfiguracionJuego.i: src/Logica/ConfiguracionJuego.cpp.i
+.PHONY : src/Logica/ConfiguracionJuego.i
+
+# target to preprocess a source file
+src/Logica/ConfiguracionJuego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.i
+.PHONY : src/Logica/ConfiguracionJuego.cpp.i
+
+src/Logica/ConfiguracionJuego.s: src/Logica/ConfiguracionJuego.cpp.s
+.PHONY : src/Logica/ConfiguracionJuego.s
+
+# target to generate assembly for a file
+src/Logica/ConfiguracionJuego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/ConfiguracionJuego.cpp.s
+.PHONY : src/Logica/ConfiguracionJuego.cpp.s
+
+src/Logica/LogicaJuego.o: src/Logica/LogicaJuego.cpp.o
+.PHONY : src/Logica/LogicaJuego.o
+
+# target to build an object file
+src/Logica/LogicaJuego.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o
+.PHONY : src/Logica/LogicaJuego.cpp.o
+
+src/Logica/LogicaJuego.i: src/Logica/LogicaJuego.cpp.i
+.PHONY : src/Logica/LogicaJuego.i
+
+# target to preprocess a source file
+src/Logica/LogicaJuego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.i
+.PHONY : src/Logica/LogicaJuego.cpp.i
+
+src/Logica/LogicaJuego.s: src/Logica/LogicaJuego.cpp.s
+.PHONY : src/Logica/LogicaJuego.s
+
+# target to generate assembly for a file
+src/Logica/LogicaJuego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica01_EDD.dir/build.make CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.s
+.PHONY : src/Logica/LogicaJuego.cpp.s
+
 src/MotorDelJuego.o: src/MotorDelJuego.cpp.o
 .PHONY : src/MotorDelJuego.o
 
@@ -540,6 +588,12 @@ help:
 	@echo "... src/Estructuras/NodoMano.o"
 	@echo "... src/Estructuras/NodoMano.i"
 	@echo "... src/Estructuras/NodoMano.s"
+	@echo "... src/Logica/ConfiguracionJuego.o"
+	@echo "... src/Logica/ConfiguracionJuego.i"
+	@echo "... src/Logica/ConfiguracionJuego.s"
+	@echo "... src/Logica/LogicaJuego.o"
+	@echo "... src/Logica/LogicaJuego.i"
+	@echo "... src/Logica/LogicaJuego.s"
 	@echo "... src/MotorDelJuego.o"
 	@echo "... src/MotorDelJuego.i"
 	@echo "... src/MotorDelJuego.s"

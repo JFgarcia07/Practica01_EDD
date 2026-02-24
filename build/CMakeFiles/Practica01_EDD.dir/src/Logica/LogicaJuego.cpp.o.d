@@ -1,10 +1,9 @@
-CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o: \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/MotorDelJuego.cpp \
+CMakeFiles/Practica01_EDD.dir/src/Logica/LogicaJuego.cpp.o: \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.cpp \
  /usr/include/stdc-predef.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/MotorDelJuego.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/ListaJugadores.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoJugador.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/Jugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/Carta.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -125,24 +124,21 @@ CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/ManoJugador.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/../Cartas/Carta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../DAO/../Estructuras/NodoMano.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/NodoCarta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/../Cartas/Carta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/ListaJugadores.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/NodoJugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../DAO/Jugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../DAO/../Estructuras/ManoJugador.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../DAO/../Estructuras/NodoCarta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../DAO/../Estructuras/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../DAO/../Estructuras/NodoMano.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/MesaJugadas.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MazoPrincipal.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Estructuras/MesaJugadas.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/LogicaJuego.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/ConfiguracionJuego.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/Carta.h \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/ListaJugadores.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/MazoPrincipal.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/NodoCarta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/../Cartas/Carta.h \
  /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Estructuras/MesaJugadas.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
@@ -181,4 +177,7 @@ CMakeFiles/Practica01_EDD.dir/src/MotorDelJuego.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Cartas/Carta.h
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/CartaAccion.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/Carta.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/CartaComodin.h \
+ /home/jfgarcianata/CLionProjects/Practica01_EDD/src/Logica/../Cartas/CartaNumero.h
