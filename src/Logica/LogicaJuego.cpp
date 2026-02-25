@@ -109,6 +109,10 @@ void LogicaJuego::aplicarEfecto(Carta* carta)
             delete[] cartasTemp;
             temp = temp->getSiguiente();
         } while (temp != jugadores.getCabeza());
+
+        string colorElegido = elegirColor();
+        carta->setColor(colorElegido);
+
     }
     else if (carta->getTipo() == "Comodin")
     {

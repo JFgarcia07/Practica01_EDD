@@ -24,7 +24,7 @@ class Carta
     bool getEstaEnMano() const;
 
     void setEstaEnMano(bool estaEnMano);
-
+    void setColor(string color);
     virtual void mostrar() const = 0;
 };
 #endif //PRACTICA01_EDD_CARTA_H

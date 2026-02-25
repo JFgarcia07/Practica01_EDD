@@ -35,3 +35,8 @@ void Carta::setEstaEnMano(bool estaEnMano)
 {
     this->estaEnMano = estaEnMano;
 }
+
+void Carta::setColor(string color)
+{
+    this->color = color;
+}
